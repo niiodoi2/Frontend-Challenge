@@ -1,0 +1,409 @@
+@import url('https://fonts.googleapis.com/css?family=DM Sans');
+   body {
+    font-family: 'DM Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+   }
+   .text-right{
+      text-align: end;
+   }
+   .text-left{
+      text-align: start;
+   }
+   .text-center{
+      text-align: center;
+   }
+   a {
+    text-decoration: none;
+   }
+   h1,h2,h3,h4,h5,h6{
+      margin: initial;
+   }
+   li {
+    list-style: none;
+   }
+   .hero-section{
+      background-image: url("/assets/images/Rectangle.png");
+    background-color: #029F58;
+    background-repeat: no-repeat;
+      background-size: cover;
+    padding: 0;
+    margin: 0;
+   }
+   .container{
+    margin: 0 7%;
+    /* position: fixed; */
+   }
+   .navbar{
+      background-image: url("/assets/images/Rectangle.png");
+      background-color: #029F58;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: sticky;
+      top: 0;
+      z-index: 5000;
+   }
+   .navbar .container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+   }
+   .logo{
+      margin-top: 10px;
+   }
+   .navbar-menu .nav-links li{
+    display: inline;
+    color: #ffff;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 116.6%;
+   }
+   .navbar-menu .nav-links li a{
+    padding-right: 40px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #ffff;
+
+   }
+   
+   .slogan h3{
+    font-size: 130px;
+    font-weight: 700;
+    line-height: 123px;
+    letter-spacing: -0.06em;
+    text-align: center;
+    color: #ffff;
+    margin: inherit;
+    padding-top: 50px;
+   }
+   .slogan p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    color: #ffff;
+    margin-bottom: 50px;
+   }
+   .container .store-button{
+    margin: inherit;
+    text-align: center;
+
+   }
+   .matte1 img,
+   .matte2 img{
+      width: 900px;
+   }
+   .matte3 img{
+      width: 600px;
+   }
+   .matte1{
+      position: absolute;
+      right: 28%;
+      margin-top: 78px;
+      
+   }
+   .matte3{
+      position: relative;
+      margin-left: 17%;
+      margin-top: 15px;
+      top: 7px;
+      
+   }
+
+   .matte2{
+      position: absolute;
+      margin-top: 58px;
+      left: 22%;
+   }
+   .about-section{
+      background-image: url("/assets/images/noise.png");
+    background-color: #E5E5E5;
+    overflow: hidden;
+   }
+   .about-section .writing{
+      margin: 8% 0;
+      position: relative;
+   }
+   .about-section .bg-picture{
+      width: 100vw;
+      position: absolute;
+      display: flex;
+   }
+   .bg-picture .first{
+      padding-left: 30px;
+   }
+   .bg-picture .second{
+      margin-left: auto;
+      margin-right: 20px;
+   }
+
+   .about-section .about-headers{
+    color: #007640;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 73px;
+    letter-spacing: -0.03em;
+   }
+   /* .fullpic{
+
+   }
+   .halfpic{
+
+   } */
+   .about-section p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+   }
+   .fans-section{
+    grid-template-columns: repeat(12, 1fr);
+    display: grid;
+   }
+   .fans-section .left{
+    grid-column: 1 / 7;
+    padding: 10% 10% 10% 15%;
+   }
+   .pill{
+    border-radius: 50px;
+    height: 32px;
+    width: 100px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.66px;
+    background-color: #FFBB62;
+   }
+   .left h4{
+    font-size: 68px;
+    font-weight: 500;
+    line-height: 69px;
+    letter-spacing: -0.03em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+   }
+   .left p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+   }
+   .right{
+    grid-column: 8 / -1;
+    padding: 15% 10%;
+    height: 438px;
+    width: 350px;
+    }
+   .right img{
+    align-content: center;
+   }
+   
+   .pic2,
+   .pic3,
+   .pic4,
+   .pic1{
+      position: absolute;
+   }
+   .pic5{
+      position: relative;
+   }
+   .fans2-section{
+      grid-template-columns: repeat(12, 1fr);
+      display: grid;
+   }
+   .fans2-section .left{
+      grid-column: 1 / 7;
+      padding: 15%;
+      background: #039352;
+      color: #fff;
+   }
+   .top-icons .pill{
+      margin-top: 20px;
+   }
+   .fans2-section .chat{
+      grid-column: 7 / -1;
+      padding: 0% 5;
+      background-image: url("/assets/images/Rectangle.png");
+      background-color: #F0F0E6;
+      background-repeat: no-repeat;
+      background-size: contain;
+      
+   }
+   /* .fans2-section .chat .bg-chat{
+      position: absolute;
+      margin: 0;
+      height: 705px;
+      width: 100%;
+   } */
+   /* .fans2-section .chat .bg-chat img{
+      width: 100%;
+      height: 80%;
+   } */
+   /* .fans2-section .chat{
+      position: relative;
+      background-image: url("/assets/images/Rectangle36.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+   } */
+   .img1{
+      width: 513px;
+      height: 99px;
+      margin-bottom: 12px;
+   }
+   .img2{
+      width: 379px;
+      height: 114px;
+      margin-bottom: 12px;
+   }
+   .img3{
+      width: 212px;
+      height: 78px;
+      margin-bottom: 12px;
+      margin-left: 10%
+   }
+   .img4{
+      width: 305px;
+      height: 105px;
+      margin-bottom: 12px;
+      margin-left: 10%
+   }
+   .img5{
+      width: 513px;
+      height: 99px;
+   }
+
+   .fans2-section .top-icons{
+      display: flex;
+      justify-content: space-between;
+   }   
+   .fans2-section .left p{
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+   }
+   .influencer1,
+   .influencer2{
+      grid-template-columns: repeat(12, 1fr);
+      display: grid;
+   }
+   .influencer1 .leftside{
+      grid-column: 1 / 7;
+      padding-left: 15%;
+      padding-right: 15%;
+      padding-top: 12%;
+   }
+   .influencer1 .leftside img{
+      position: relative;
+      top: 5px;
+   }
+   .influencer1 .rightside{
+      grid-column: 7 / -1;
+      padding: 30% 30% 0 0;
+   }
+   .rightside h4{
+      font-size: 68px;
+      font-weight: 500;
+      line-height: 69px;
+      letter-spacing: -0.03em;
+      margin-top: 30px;
+   }
+   .rightside p{
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+   }
+   .influencer2 .leftside{
+      grid-column: 1 / 7;
+      padding-left: 5%;
+      background: #424242;;
+   }
+   .influencer2 .rightside{
+      grid-column: 7 / -1;
+      background:  #202020;
+      padding: 15%;
+   }
+   .influencer2 .rightside .top{
+      display: flex;
+      justify-content: space-between;
+   }
+   .influencer2 .rightside .top .pill{
+      background: #FF8C62;
+      margin-top: 17px;
+   }
+   .influencer2 .rightside .top{
+      display: flex;
+      justify-content: space-between;
+   }
+   .influencer2 .rightside{
+      color: #fff;
+   }
+   .features{
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      padding: 8%;
+      box-sizing: content-box;
+      margin-bottom: 100%;
+   }
+   .features .header{
+      grid-column: 1 / -1;
+      font-size: 68px;
+      font-weight: 500;
+      line-height: 69px;
+      letter-spacing: -0.03em;
+      color: #007640;
+
+   }
+   .features .left{
+      position: relative;
+      margin-top: 15%;
+      margin-left: 8%;
+   }
+   .features .rightsided{
+      position: absolute;
+      margin-left: 365px;
+      margin-top: 10%;
+   }
+   .feat{
+      position: relative;
+   }
+   .features .middle{
+      position: absolute;
+      margin-top: 70%;
+   }
+   .middle .img{
+      width: 100px;
+   }
+   .features img{
+      position: absolute;
+      margin-top: 70%;
+      margin-right: 80%;
+      box-sizing: border-box;
+   }
+   .footer{
+      position: absolute;
+      margin-top: 5%;
+      width: 100vw;
+   }
+   .footer-nav{
+      text-align: end;
+      margin: 5% 0;
+   }
+   .footer-icon{
+      text-align: center;
+   }
+   .footer-icon img{
+      width: 85vw;
+   }
+   
+
+
+   
+
+   
